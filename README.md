@@ -13,7 +13,7 @@ Todistettavasti toimii MiniDisplay Port kaapelilla. Ei henkilökohtaisia kokemuk
 
 TDM:n sammutus eli "Off" - Kytke ensin ulkoinen näyttö pois käytöstä pääkoneen näyttöasetuksista ja paina sitten virtanäppäintä näyttönä toimivassa iMacissa.
 ***
-Vinkki: Näyttönä toimivaan iMaciin kannattaa asentaa Samba palvelin ja kytkeä koneet yhteen Ethernet-piuhalla. Näin voit käyttää näyttökoneeen tiedostojärjestelmää tallennustilana ja siirtää tiedostoja koneiden välillä.
+Vinkki: Näyttönä toimivaan iMaciin kannattaa asentaa Samba palvelin ja kytkeä koneet yhteen Ethernet-piuhalla. Näin voit käyttää näyttökoneen tiedostojärjestelmää tallennustilana ja siirtää tiedostoja koneiden välillä.
 ***
 HUOM: Luultavasti haluat jättää `rc.local`:n pois asennuksesta (`Kohta 16`) - jos ja kun haluat myös käyttää näyttökoneen Linux käyttöjärjestelmää. (`rc.local` käynnistää koneen suoraan kohdenäyttötilaan ja oma kokemukseni on että TDM:n pois laittaminen johtaa tyhjään näyttöön)
 
