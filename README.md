@@ -32,7 +32,7 @@ cd smc_util
 ```
 gcc -O2 -o SmcDumpKey SmcDumpKey.c -Wall
 ```
-4.Luo tiedostot tdm_toggle.sh, powerbutton, powerbutton.sh and rc.local
+4.Luo tiedostot tdm_toggle.sh, powerbutton, powerbutton.sh ja rc.local
 ```
 touch tdm_toggle.sh powerbutton powerbutton.sh rc.local
 ```
