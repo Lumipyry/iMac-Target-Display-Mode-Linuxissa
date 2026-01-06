@@ -36,7 +36,9 @@ gcc -O2 -o SmcDumpKey SmcDumpKey.c -Wall
 ```
 touch tdm_toggle.sh powerbutton powerbutton.sh rc.local
 ```
-5.Vaihda tiedoston tdm_off.sh sisältö seuraavanlaiseksi
+5.Vaihda tiedoston tdm_off.sh sisältö seuraavanlaiseksi 
+
+(käyttämällä päätteessä komentoa `nano ~/smc_util/tdm_off.sh` tai avaamalla tiedosto tekstinkäsittelyohjelmalla)
 ```
 #!/bin/bash
 rm -f tdm_started
@@ -138,11 +140,11 @@ popd
 ```
 sudo rmmod applesmc
 ```
-12.Muuta tdm_toggle.sh, rc.local and powerbutton.sh suoritettaviksi (`vaihda XXXXXXXX`)
+12.Muuta tdm_toggle.sh, rc.local ja powerbutton.sh suoritettaviksi (`vaihda XXXXXXXX`)
 ```
 sudo chmod +x /home/XXXXXXXXX/smc_util/tdm_toggle.sh /home/XXXXXXXXX/smc_util/rc.local /home/XXXXXXXXX/smc_util/powerbutton.sh
 ```
-13.Asenna build-essential and acpid
+13.Asenna build-essential ja acpid
 ```
 sudo apt install build-essential acpid
 ```
@@ -162,7 +164,7 @@ sudo cp /home/XXXXXXXXX/smc_util/rc.local /etc/rc.local
 ```
 sudo systemctl restart acpid
 ```
-18.Vaihda virtanäppäimen toiminta olemaan
+18.Vaihda virtanäppäimen toiminta asetusten osassa Virranhallinta seuraavanlaiseksi
 
 `Älä tee mitään`
 
