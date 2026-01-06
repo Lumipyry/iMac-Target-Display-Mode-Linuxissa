@@ -1,6 +1,7 @@
 # Näin käytät iMac konetta 2-näyttönä Linuxissa
+![imac-target-display-mode-hero](https://github.com/user-attachments/assets/f5948c13-a0b7-4bae-abd1-c50fb6f6df32)
 
-In english: [    Step-by-step-instructions-for-using-iMac-in-Target-Display-Mode](https://github.com/Lumipyry/Step-by-step-instructions-for-using-iMac-in-Target-Display-Mode)
+_In english: [    Step-by-step-instructions-for-using-iMac-in-Target-Display-Mode](https://github.com/Lumipyry/Step-by-step-instructions-for-using-iMac-in-Target-Display-Mode)_
 
 Tämä on asennusohje [smc_util](https://github.com/floe/smc_util):lle sisältäen [FreekMank](https://github.com/floe/smc_util/pull/11/commits):n tuen virtanäppäimen käytölle.
 
