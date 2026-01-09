@@ -7,7 +7,7 @@ Tämä on asennusohje [smc_util](https://github.com/floe/smc_util):lle sisältä
 
 Kohdenäyttötila (Target Display Mode) käynnistetään ja sammutetaan painamalla virtanäppäintä.
 
-Soveltuu iMac malleihin [2009-2014](https://support.apple.com/fi-fi/105126). 2-näyttönä käytettävässä koneessa tulee olla sekä Linux että Apple High Sierra tai aikaisempi.
+Soveltuu iMac malleihin [2009-2014](https://support.apple.com/fi-fi/105126). Ulkoisena näyttönä käytettävässä koneessa tulee olla sekä Linux että Apple High Sierra tai aikaisempi.
 
 Todistettavasti toimii MiniDisplay Port kaapelilla. Ei henkilökohtaisia kokemuksia Thunderbolt kaapelilla. Testattu iMac malleilla 2009-2011.
 
