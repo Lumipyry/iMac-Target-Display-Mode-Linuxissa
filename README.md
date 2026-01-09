@@ -3,7 +3,7 @@
 
 _In english: [    Step-by-step-instructions-for-using-iMac-in-Target-Display-Mode](https://github.com/Lumipyry/Step-by-step-instructions-for-using-iMac-in-Target-Display-Mode)_
 
-Tämä on asennusohje [smc_util](https://github.com/floe/smc_util):lle sisältäen [FreekMank](https://github.com/floe/smc_util/pull/11/commits):n tuen virtanäppäimen käytölle.
+Tämä on asennusohje [smc_util](https://github.com/floe/smc_util):lle sisältäen FreekMank:n [tuen virtanäppäimen käytölle](https://github.com/floe/smc_util/pull/11/commits).
 
 Kohdenäyttötila (Target Display Mode) käynnistetään ja sammutetaan painamalla virtanäppäintä.
 
