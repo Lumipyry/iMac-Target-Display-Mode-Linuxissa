@@ -9,7 +9,7 @@ Kohdenäyttötila (Target Display Mode) käynnistetään ja sammutetaan painamal
 
 Soveltuu iMac malleihin [2009-2014](https://support.apple.com/fi-fi/105126). Ulkoisena näyttönä käytettävässä koneessa tulee olla sekä Linux että Apple High Sierra tai aikaisempi.
 
-Todistettavasti toimii MiniDisplay Port kaapelilla. Ei henkilökohtaisia kokemuksia Thunderbolt kaapelilla. Testattu iMac malleilla 2009-2011.
+Toimii todistettavasti MiniDisplay Port kaapelilla. Ei henkilökohtaisia kokemuksia Thunderbolt kaapelilla. Testattu iMac malleilla 2009-2011.
 
 TDM:n sammutus eli "Off": Kytke ensin ulkoinen näyttö pois käytöstä pääkoneen näyttöasetuksista ja paina sitten virtanäppäintä näyttönä toimivassa iMacissa.
 ***
