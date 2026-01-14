@@ -127,7 +127,7 @@ echo $NOW > $FILE
 
 popd
 ```
-10.Luo seuraava sisältö tiedostoon rc.local. `MUISTA VAIHTAA XXXXXXXXX omaan käyttäjänimeesi (KAHDESSA kohdassa scriptissä)`
+10.Luo seuraava sisältö tiedostoon rc.local. `MUISTA VAIHTAA XXXXXXXXX omaan käyttäjänimeesi`
 ```
 nano rc.local
 ```
