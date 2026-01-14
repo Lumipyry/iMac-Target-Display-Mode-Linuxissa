@@ -34,9 +34,11 @@ gcc -O2 -o SmcDumpKey SmcDumpKey.c -Wall
 ```
 touch tdm_toggle.sh powerbutton powerbutton.sh rc.local
 ```
-5.Vaihda tiedoston tdm_off.sh sisältö seuraavanlaiseksi 
-
-(käyttämällä päätteessä komentoa ```nano tdm_off.sh``` tai avaamalla tiedosto tekstinkäsittelyohjelmalla)
+5.Vaihda tiedoston tdm_off.sh sisältö seuraavanlaiseksi (käyttämällä päätteessä komentoa) 
+```
+nano tdm_off.sh
+```
+tai avaamalla tiedosto tekstinkäsittelyohjelmalla
 ```
 #!/bin/bash
 rm -f tdm_started
