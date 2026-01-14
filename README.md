@@ -16,7 +16,7 @@ HUOM: Luultavasti haluat jättää `rc.local`:n pois asennuksesta (`Kohta 16`) -
 
 Ilman `rc.local`:a kone käynnistyy ensin Linuxissa.
 ***
-Huom 2: Kohdasta 5 on 14.1.2026 poistettu siihen vahingossa jäänyt kohdan 6 englanninkielinen osa
+Huom 2: Kohdista 5 ja 7 on 14.1.2026 poistettu niihin vahingossa jäänyt kohdan englanninkielinen osa
 ***
 Asennus tapahtuu seuraavilla komennoilla käyttämällä päätettä (Terminal)
 
@@ -82,10 +82,6 @@ fi
 
 popd
 
-8.Create content to file powerbutton
-
-event=button/power PBTN
-action=/etc/acpi/powerbutton.sh
 ```
 8.Luo seuraava sisältö tiedostoon powerbutton
 ```
