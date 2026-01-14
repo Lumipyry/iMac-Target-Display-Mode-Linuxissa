@@ -48,15 +48,6 @@ sleep 1
 sleep 2
 DISPLAY=:0.0 xrandr --output eDP --auto
 
-6.Change content of file tdm_on.sh
-
-#!/bin/bash
-./SmcDumpKey MVHR 1
-sleep 1
-./SmcDumpKey MVMR 2
-sleep 2
-DISPLAY=:0.0 xrandr --output eDP --off
-touch tdm_started
 ```
 6.Vaihda tiedoston tdm_on.sh sisältö seuraavanlaiseksi
 ```
