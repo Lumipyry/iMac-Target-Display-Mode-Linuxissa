@@ -16,7 +16,7 @@ HUOM: Luultavasti haluat jättää `rc.local`:n pois asennuksesta (`Kohta 16`) -
 
 Ilman `rc.local`:a kone käynnistyy ensin Linuxissa.
 ***
-Huom 2: Kohdasta 5 on 14.1.2026 poistettu siihen vahingossa jäänyt kohdan 6 englanninkielinen osa) 
+Huom 2: Kohdasta 5 on 14.1.2026 poistettu siihen vahingossa jäänyt kohdan 6 englanninkielinen osa
 ***
 Asennus tapahtuu seuraavilla komennoilla käyttämällä päätettä (Terminal)
 
