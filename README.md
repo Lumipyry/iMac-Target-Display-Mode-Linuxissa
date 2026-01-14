@@ -36,7 +36,7 @@ gcc -O2 -o SmcDumpKey SmcDumpKey.c -Wall
 ```
 touch tdm_toggle.sh powerbutton powerbutton.sh rc.local
 ```
-5.Vaihda tiedoston tdm_off.sh sisältö seuraavanlaiseksi (käyttämällä päätteessä komentoa) 
+5.Vaihda tiedoston tdm_off.sh sisältö seuraavanlaiseksi (käyttämällä päätteessä komentoa `nano`) 
 ```
 nano tdm_off.sh
 ```
@@ -53,6 +53,9 @@ DISPLAY=:0.0 xrandr --output eDP --auto
 ```
 6.Vaihda tiedoston tdm_on.sh sisältö seuraavanlaiseksi
 ```
+nano tdm_on.sh
+```
+```
 #!/bin/bash
 ./SmcDumpKey MVHR 1
 sleep 1
@@ -62,6 +65,9 @@ DISPLAY=:0.0 xrandr --output eDP --off
 touch tdm_started
 ```
 7.Luo seuraava sisältö tiedostoon tdm_toggle.sh
+```
+nano tdm_toggle.sh
+```
 ```
 #!/bin/bash
 pushd $(dirname "${BASH_SOURCE[0]}")
@@ -83,10 +89,16 @@ action=/etc/acpi/powerbutton.sh
 ```
 8.Luo seuraava sisältö tiedostoon powerbutton
 ```
+nano powerbutton
+```
+```
 event=button/power PBTN
 action=/etc/acpi/powerbutton.sh
 ```
 9.Luo seuraava sisältö tiedostoon powerbutton.sh. `MUISTA VAIHTAA XXXXXXXXX omaan käyttäjänimeesi (KAHDESSA kohdassa scriptissä)`
+```
+nano powerbutton.sh
+```
 ```
 #!/bin/bash
 
@@ -120,6 +132,9 @@ echo $NOW > $FILE
 popd
 ```
 10.Luo seuraava sisältö tiedostoon rc.local. `MUISTA VAIHTAA XXXXXXXXX omaan käyttäjänimeesi (KAHDESSA kohdassa scriptissä)`
+```
+nano rc.local
+```
 ```
 #!/bin/bash
 
