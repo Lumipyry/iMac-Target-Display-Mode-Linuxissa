@@ -16,6 +16,8 @@ HUOM: Luultavasti haluat jättää `rc.local`:n pois asennuksesta (`Kohta 16`) -
 
 Ilman `rc.local`:a kone käynnistyy ensin Linuxissa.
 ***
+Huom 2: Kohdasta 5 on 14.1.2026 poistettu siihen vahingossa jäänyt kohdan 6 englanninkielinen osa) 
+***
 Asennus tapahtuu seuraavilla komennoilla käyttämällä päätettä (Terminal)
 
 1.Lataa smc_util 2-näyttökoneen kotihakemistoon
@@ -38,7 +40,7 @@ touch tdm_toggle.sh powerbutton powerbutton.sh rc.local
 ```
 nano tdm_off.sh
 ```
-tai avaamalla tiedosto tekstinkäsittelyohjelmalla (Huom. Alla olevasta koodista on 14.1.2026 poistettu siihen vahingossa jäänyt kohdan 6 englanninkielinen osa) 
+tai avaamalla tiedosto tekstinkäsittelyohjelmalla 
 ```
 #!/bin/bash
 rm -f tdm_started
