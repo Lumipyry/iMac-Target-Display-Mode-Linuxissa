@@ -38,7 +38,7 @@ touch tdm_toggle.sh powerbutton powerbutton.sh rc.local
 ```
 nano tdm_off.sh
 ```
-tai avaamalla tiedosto tekstinkäsittelyohjelmalla
+tai avaamalla tiedosto tekstinkäsittelyohjelmalla (Huom. Alla olevasta koodista on 14.1.2026 poistettu siihen vahingossa jäänyt kohdan 6 englanninkielinen osa) 
 ```
 #!/bin/bash
 rm -f tdm_started
