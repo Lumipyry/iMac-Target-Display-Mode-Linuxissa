@@ -16,8 +16,6 @@ HUOM: Luultavasti haluat jättää `rc.local`:n pois asennuksesta (`Kohta 16`) -
 
 Ilman `rc.local`:a kone käynnistyy ensin Linuxissa.
 ***
-Huom 2: Kohdista 5 ja 7 on 14.1.2026 poistettu niihin vahingossa jäänyt kohdan englanninkielinen osa
-***
 Asennus tapahtuu seuraavilla komennoilla käyttämällä päätettä (Terminal)
 
 1.Lataa smc_util 2-näyttökoneen kotihakemistoon
