@@ -12,9 +12,7 @@ Soveltuu iMac malleihin [2009-2014](https://support.apple.com/fi-fi/105126). Ulk
 Toimii todistettavasti MiniDisplay Port kaapelilla. Ei henkilökohtaisia kokemuksia Thunderbolt kaapelilla. Testattu iMac malleilla 2009-2011.
 
 ***
-HUOM: Luultavasti haluat jättää `rc.local`:n pois asennuksesta (`Kohta 16`) - jos ja kun haluat myös käyttää näyttökoneen Linux käyttöjärjestelmää. (`rc.local` käynnistää koneen suoraan kohdenäyttötilaan ja oma kokemukseni on että TDM:n pois laittaminen johtaa tyhjään näyttöön)
-
-Ilman `rc.local`:a kone käynnistyy ensin Linuxissa.
+Luultavasti haluat jättää kohdan 16 (`rc.local`) pois asennuksesta - jos ja kun haluat myös käyttää näyttökoneen Linux käyttöjärjestelmää. (`rc.local` käynnistää koneen suoraan kohdenäyttötilaan - ja silloin virtanäppäimen painaminen voi johtaa tyhjään näyttöön). Ilman `rc.local`:a kone käynnistyy ensin Linuxissa.
 ***
 Asennus tapahtuu seuraavilla komennoilla käyttämällä päätettä (Terminal)
 
