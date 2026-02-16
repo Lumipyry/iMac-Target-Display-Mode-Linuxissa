@@ -9,7 +9,7 @@ Kohdenäyttötila (Target Display Mode = TDM) käynnistetään ja sammutetaan pa
 
 Soveltuu iMac malleihin [2009-2014](https://support.apple.com/fi-fi/105126). Ulkoisena näyttönä käytettävässä koneessa tulee olla sekä Linux että Apple High Sierra tai aikaisempi.
 
-Toimii todistettavasti MiniDisplay Port kaapelilla. Ei henkilökohtaisia kokemuksia Thunderbolt kaapelilla. Testattu iMac malleilla 2009-2011.
+Toimii todistettavasti MiniDisplay Port kaapelilla. Ei toimi Thunderbolt kaapelilla ainakaan jos näyttö-iMac ei tue sitä (2009-2011). Testattu iMac malleilla 2009-2011. Ei varmuutta Thunderbolt kaapelin toimivuudesta myöhemmissä iMac-malleissa (kokeilemalla selviää).
 
 ***
 Luultavasti haluat jättää kohdan 16 (`rc.local`) pois asennuksesta - jos ja kun haluat myös käyttää näyttökoneen Linux käyttöjärjestelmää. (`rc.local` käynnistää koneen suoraan kohdenäyttötilaan - ja silloin virtanäppäimen painaminen voi johtaa tyhjään näyttöön). Ilman `rc.local`:a kone käynnistyy ensin Linuxissa.
