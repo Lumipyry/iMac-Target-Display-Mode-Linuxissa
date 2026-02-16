@@ -5,7 +5,7 @@ _In english: [    Step-by-step-instructions-for-using-iMac-in-Target-Display-Mod
 
 Tämä on asennusohje [smc_util](https://github.com/floe/smc_util):lle sisältäen FreekMank:n [tuen virtanäppäimen käytölle](https://github.com/floe/smc_util/pull/11/commits).
 
-Kohdenäyttötila (Target Display Mode) käynnistetään ja sammutetaan painamalla virtanäppäintä.
+Kohdenäyttötila (Target Display Mode = TDM) käynnistetään ja sammutetaan painamalla virtanäppäintä.
 
 Soveltuu iMac malleihin [2009-2014](https://support.apple.com/fi-fi/105126). Ulkoisena näyttönä käytettävässä koneessa tulee olla sekä Linux että Apple High Sierra tai aikaisempi.
 
